@@ -1,5 +1,6 @@
 //your JS code here. If required.
-let ip = document.getElementById("fname")
-ip.addEventListener("blur", () => {
-	ip.value = ip.value.toUppercase()
-})
+const inputField = document.getElementById('fname');
+
+inputField.addEventListener('blur', () => {
+    inputField.value = inputField.value.toUpperCase();
+});
